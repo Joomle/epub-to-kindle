@@ -6,4 +6,4 @@
   name = "github.com/BurntSushi/toml"
   packages = ["."]
   pruneopts = "UT"
-  revision = "3012a1dbe2e4bd1391d42b32f0577c
+  revision = "3012a1dbe2e4bd1391d42b32f0577cb
