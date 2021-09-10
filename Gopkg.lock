@@ -14,4 +14,4 @@
   name = "github.com/gorilla/mux"
   packages = ["."]
   pruneopts = "UT"
-  revision = "ed099d42384823742bba0bf9a72b53b55c9
+  revision = "ed099d42384823742bba0bf9a72b53b55c9e2e3
