@@ -22,4 +22,4 @@
   analyzer-version = 1
   input-imports = [
     "github.com/BurntSushi/toml",
-    "github
+    "github.c
