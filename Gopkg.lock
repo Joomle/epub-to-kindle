@@ -24,4 +24,4 @@
     "github.com/BurntSushi/toml",
     "github.com/gorilla/mux",
   ]
-  solver-name = "g
+  solver-name = "gp
