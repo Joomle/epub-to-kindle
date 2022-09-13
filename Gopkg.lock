@@ -25,4 +25,4 @@
     "github.com/gorilla/mux",
   ]
   solver-name = "gps-cdcl"
-  so
+  solv
