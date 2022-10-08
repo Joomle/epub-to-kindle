@@ -21,3 +21,5 @@
 #   version = "2.4.0"
 #
 # [prune]
+#   non-go = false
+#   go-tests = true
