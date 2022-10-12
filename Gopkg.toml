@@ -27,3 +27,4 @@
 
 
 [[constraint]]
+  name = "github.com/BurntSushi/toml"
