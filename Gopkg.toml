@@ -33,3 +33,5 @@
 [[constraint]]
   name = "github.com/gorilla/mux"
   version = "1.7.2"
+
+[prune]
