@@ -35,3 +35,5 @@
   version = "1.7.2"
 
 [prune]
+  go-tests = true
+  unused-packages = true
