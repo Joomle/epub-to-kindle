@@ -7,3 +7,4 @@
 
 1. [Install Golang](https://golang.org/doc/install)
 2. Setup GOPATH [Link1](https://golang.org/doc/code.html#GOPATH) and [Link2](https://github.com/golang/go/wiki/GOPATH)
+3. [Install Dep](https://github.com/golang/dep)
