@@ -12,3 +12,4 @@
 #### Getting Started
 
 1. Clone the repo under `$GOPATH/src`. Run `git clone https://github.com/Gohelraj/stock-server.git stock-server`
+2. To install dependencies Run `dep ensure`
