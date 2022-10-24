@@ -13,3 +13,4 @@
 
 1. Clone the repo under `$GOPATH/src`. Run `git clone https://github.com/Gohelraj/stock-server.git stock-server`
 2. To install dependencies Run `dep ensure`
+5. Add `stockserver` API key in `config.toml` file. If you don't have API key than first [Generate key](https://www.worldtradingdata.com) and than add.
