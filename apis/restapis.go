@@ -10,3 +10,6 @@ import (
 	"regexp"
 	"stock-server/config"
 )
+
+type StockResp struct {
+	TotalReturned int `json:"total_returned"`
