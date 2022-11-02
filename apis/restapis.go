@@ -17,3 +17,4 @@ type StockResp struct {
 	TotalPages    int `json:"total_pages"`
 	Limit         int `json:"limit"`
 	Page          int `json:"page"`
+	Data          []struct {
