@@ -14,3 +14,5 @@ import (
 type StockResp struct {
 	TotalReturned int `json:"total_returned"`
 	TotalResults  int `json:"total_results"`
+	TotalPages    int `json:"total_pages"`
+	Limit         int `json:"limit"`
