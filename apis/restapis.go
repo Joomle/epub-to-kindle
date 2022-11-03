@@ -19,3 +19,4 @@ type StockResp struct {
 	Page          int `json:"page"`
 	Data          []struct {
 		Symbol             string `json:"symbol"`
+		Name               string `json:"name"`
