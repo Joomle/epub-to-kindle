@@ -20,3 +20,4 @@ type StockResp struct {
 	Data          []struct {
 		Symbol             string `json:"symbol"`
 		Name               string `json:"name"`
+		Currency           string `json:"currency"`
