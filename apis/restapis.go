@@ -21,3 +21,5 @@ type StockResp struct {
 		Symbol             string `json:"symbol"`
 		Name               string `json:"name"`
 		Currency           string `json:"currency"`
+		Price              string `json:"price"`
+		StockExchangeLong  string `json:"stock_exchange_long"`
