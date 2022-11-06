@@ -23,3 +23,4 @@ type StockResp struct {
 		Currency           string `json:"currency"`
 		Price              string `json:"price"`
 		StockExchangeLong  string `json:"stock_exchange_long"`
+		StockExchangeShort string `json:"stock_exchange_short"`
