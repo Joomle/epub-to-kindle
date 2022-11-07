@@ -25,3 +25,4 @@ type StockResp struct {
 		StockExchangeLong  string `json:"stock_exchange_long"`
 		StockExchangeShort string `json:"stock_exchange_short"`
 	} `json:"data"`
+}
