@@ -31,3 +31,5 @@ type Error struct {
 	Code    int    `json:"code"`
 	Message string `json:"message"`
 }
+
+func GetStockPricesByStockSymbol(w http.ResponseWriter, r *http.Request) {
