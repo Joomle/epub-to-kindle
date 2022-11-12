@@ -26,3 +26,5 @@ type StockResp struct {
 		StockExchangeShort string `json:"stock_exchange_short"`
 	} `json:"data"`
 }
+
+type Error struct {
