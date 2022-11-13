@@ -34,3 +34,5 @@ type Error struct {
 
 func GetStockPricesByStockSymbol(w http.ResponseWriter, r *http.Request) {
 	params := mux.Vars(r)
+	stockSymbol := params["symbol"]
+	stockExchange := r.FormValue("stock_exchange")
