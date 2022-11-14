@@ -38,3 +38,4 @@ func GetStockPricesByStockSymbol(w http.ResponseWriter, r *http.Request) {
 	stockExchange := r.FormValue("stock_exchange")
 
 	regexPattern, err := regexp.Compile(`\b[A-Z][A-Z]+\b`)
+	if err != nil {
