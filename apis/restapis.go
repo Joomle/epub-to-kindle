@@ -39,3 +39,4 @@ func GetStockPricesByStockSymbol(w http.ResponseWriter, r *http.Request) {
 
 	regexPattern, err := regexp.Compile(`\b[A-Z][A-Z]+\b`)
 	if err != nil {
+		ErrorResponseFunction(w, http.StatusInternalServerError, "Something Went Wrong")
