@@ -46,3 +46,4 @@ func GetStockPricesByStockSymbol(w http.ResponseWriter, r *http.Request) {
 	if !regexPattern.MatchString(stockSymbol) {
 		ErrorResponseFunction(w, http.StatusBadRequest, "Invalid stock symbol")
 		return
+	}
