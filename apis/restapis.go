@@ -47,3 +47,5 @@ func GetStockPricesByStockSymbol(w http.ResponseWriter, r *http.Request) {
 		ErrorResponseFunction(w, http.StatusBadRequest, "Invalid stock symbol")
 		return
 	}
+
+	if stockExchange == "" {
