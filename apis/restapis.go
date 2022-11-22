@@ -52,3 +52,4 @@ func GetStockPricesByStockSymbol(w http.ResponseWriter, r *http.Request) {
 		stockExchange = "AMEX"
 	} else {
 		if !regexPattern.MatchString(stockExchange) {
+			ErrorResponseFunction(w, http.StatusBadRequest, "Invalid stock exchange")
