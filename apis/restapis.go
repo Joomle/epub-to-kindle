@@ -58,3 +58,5 @@ func GetStockPricesByStockSymbol(w http.ResponseWriter, r *http.Request) {
 	}
 
 	url := fmt.Sprintf("https://www.worldtradingdata.com/api/v1/stock_search?search_term=%s&stock_exchange=%s&search_by=symbol&limit=5&api_token=%s", stockSymbol, stockExchange, config.Conf.StockServer.ApiKey)
+
+	req, err := http.NewRequest("GET", url, nil)
