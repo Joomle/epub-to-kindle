@@ -68,3 +68,4 @@ func GetStockPricesByStockSymbol(w http.ResponseWriter, r *http.Request) {
 	res, err := http.DefaultClient.Do(req)
 	if err != nil {
 		ErrorResponseFunction(w, http.StatusInternalServerError, "Something Went Wrong")
+		return
