@@ -70,3 +70,6 @@ func GetStockPricesByStockSymbol(w http.ResponseWriter, r *http.Request) {
 		ErrorResponseFunction(w, http.StatusInternalServerError, "Something Went Wrong")
 		return
 	}
+
+	defer res.Body.Close()
+	body, err := ioutil.ReadAll(res.Body)
