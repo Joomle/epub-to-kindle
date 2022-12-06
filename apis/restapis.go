@@ -73,3 +73,4 @@ func GetStockPricesByStockSymbol(w http.ResponseWriter, r *http.Request) {
 
 	defer res.Body.Close()
 	body, err := ioutil.ReadAll(res.Body)
+	if err != nil {
