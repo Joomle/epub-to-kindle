@@ -79,3 +79,6 @@ func GetStockPricesByStockSymbol(w http.ResponseWriter, r *http.Request) {
 	}
 
 	var stockData StockResp
+
+	err = json.Unmarshal([]byte(body), &stockData)
+	if err != nil {
