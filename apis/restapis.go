@@ -89,3 +89,4 @@ func GetStockPricesByStockSymbol(w http.ResponseWriter, r *http.Request) {
 	fmt.Println(string(body))
 	RespondWithJSONWithPayload(w, http.StatusOK, stockData)
 	return
+}
