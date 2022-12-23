@@ -90,3 +90,6 @@ func GetStockPricesByStockSymbol(w http.ResponseWriter, r *http.Request) {
 	RespondWithJSONWithPayload(w, http.StatusOK, stockData)
 	return
 }
+
+// RespondWithJSONWithPayload -- for success response
+func RespondWithJSONWithPayload(w http.ResponseWriter, code int, payload interface{}) {
