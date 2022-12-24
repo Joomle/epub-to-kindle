@@ -97,3 +97,5 @@ func RespondWithJSONWithPayload(w http.ResponseWriter, code int, payload interfa
 	w.WriteHeader(code)
 	json.NewEncoder(w).Encode(payload)
 }
+
+// ErrorResponseFunction -- for errors response
