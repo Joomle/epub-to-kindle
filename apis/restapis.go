@@ -95,3 +95,4 @@ func GetStockPricesByStockSymbol(w http.ResponseWriter, r *http.Request) {
 func RespondWithJSONWithPayload(w http.ResponseWriter, code int, payload interface{}) {
 	w.Header().Set("Content-Type", "application/json; charset=utf-8")
 	w.WriteHeader(code)
+	json.NewEncoder(w).Encode(payload)
