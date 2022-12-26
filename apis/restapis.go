@@ -99,3 +99,4 @@ func RespondWithJSONWithPayload(w http.ResponseWriter, code int, payload interfa
 }
 
 // ErrorResponseFunction -- for errors response
+func ErrorResponseFunction(w http.ResponseWriter, code int, err string) {
