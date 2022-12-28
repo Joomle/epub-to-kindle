@@ -104,3 +104,4 @@ func ErrorResponseFunction(w http.ResponseWriter, code int, err string) {
 	errResp = Error{
 		Code:    code,
 		Message: err,
+	}
