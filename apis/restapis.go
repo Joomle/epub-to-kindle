@@ -105,3 +105,5 @@ func ErrorResponseFunction(w http.ResponseWriter, code int, err string) {
 		Code:    code,
 		Message: err,
 	}
+	RespondWithJSONWithPayload(w, code, errResp)
+}
