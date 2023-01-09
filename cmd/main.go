@@ -8,3 +8,5 @@ import (
 	"stock-server/apis"
 	"stock-server/config"
 )
+
+func main() {
