@@ -10,3 +10,4 @@ import (
 )
 
 type Service struct {
+	Server      Server
