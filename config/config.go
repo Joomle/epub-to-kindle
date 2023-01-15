@@ -11,3 +11,4 @@ import (
 
 type Service struct {
 	Server      Server
+	StockServer StockServer
