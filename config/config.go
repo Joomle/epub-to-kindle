@@ -13,3 +13,6 @@ type Service struct {
 	Server      Server
 	StockServer StockServer
 }
+
+type Server struct {
+	Port string
