@@ -20,3 +20,4 @@ type Server struct {
 
 type StockServer struct {
 	ApiKey string
+}
