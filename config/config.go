@@ -16,3 +16,4 @@ type Service struct {
 
 type Server struct {
 	Port string
+}
