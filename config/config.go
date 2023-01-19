@@ -17,3 +17,6 @@ type Service struct {
 type Server struct {
 	Port string
 }
+
+type StockServer struct {
+	ApiKey string
