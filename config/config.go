@@ -24,3 +24,6 @@ type StockServer struct {
 
 var Conf Service
 var once sync.Once
+
+func Load() {
+	once.Do(func() {
