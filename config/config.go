@@ -21,3 +21,6 @@ type Server struct {
 type StockServer struct {
 	ApiKey string
 }
+
+var Conf Service
+var once sync.Once
