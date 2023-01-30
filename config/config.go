@@ -27,3 +27,5 @@ var once sync.Once
 
 func Load() {
 	once.Do(func() {
+		gp := os.Getenv("GOPATH")
+		filePath := path.Join(gp, "/src/stock-server/config.toml")
