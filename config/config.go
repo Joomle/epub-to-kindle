@@ -29,3 +29,5 @@ func Load() {
 	once.Do(func() {
 		gp := os.Getenv("GOPATH")
 		filePath := path.Join(gp, "/src/stock-server/config.toml")
+		_, err := toml.DecodeFile(filePath, &Conf)
+		if err != nil {
