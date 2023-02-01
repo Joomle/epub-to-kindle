@@ -31,3 +31,6 @@ func Load() {
 		filePath := path.Join(gp, "/src/stock-server/config.toml")
 		_, err := toml.DecodeFile(filePath, &Conf)
 		if err != nil {
+			log.Fatal("error decoding config file", err)
+		}
+	})
