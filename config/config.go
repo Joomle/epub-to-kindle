@@ -34,3 +34,4 @@ func Load() {
 			log.Fatal("error decoding config file", err)
 		}
 	})
+}
