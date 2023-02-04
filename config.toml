@@ -3,3 +3,4 @@
 port= ":8000"
 
 [stockserver]
+apikey = "" # Your stockserver api key if you dont have than generate by visting : [https://www.worldtradingdata.com]
