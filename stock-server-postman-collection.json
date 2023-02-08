@@ -8,3 +8,4 @@
 	"item": [
 		{
 			"name": "GET Stock Prices By Stock Symbol",
+			"request": {
