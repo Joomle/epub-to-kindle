@@ -9,3 +9,4 @@
 		{
 			"name": "GET Stock Prices By Stock Symbol",
 			"request": {
+				"method": "GET",
