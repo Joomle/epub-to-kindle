@@ -12,3 +12,6 @@
 				"method": "GET",
 				"header": [],
 				"url": {
+					"raw": "http://localhost:8000/stock/AAU",
+					"protocol": "http",
+					"host": [
