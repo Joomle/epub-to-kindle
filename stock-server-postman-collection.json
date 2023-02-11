@@ -22,3 +22,5 @@
 						"stock",
 						"AAU"
 					]
+				},
+				"description": "It can fetch Stock price of given stock symbol it take default stock exchanges \"AMEX\""
