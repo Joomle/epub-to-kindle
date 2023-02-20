@@ -28,3 +28,5 @@
 			"response": []
 		},
 		{
+			"name": "GET Stock Price By Stock Symbol and Stock Exchange",
+			"request": {
