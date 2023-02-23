@@ -33,3 +33,4 @@
 				"method": "GET",
 				"header": [],
 				"url": {
+					"raw": "http://localhost:8000/stock/AAC?stock_exchange=NYSE",
