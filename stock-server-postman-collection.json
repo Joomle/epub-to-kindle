@@ -44,3 +44,5 @@
 						"AAC"
 					],
 					"query": [
+						{
+							"key": "stock_exchange",
