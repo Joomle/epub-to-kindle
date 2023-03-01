@@ -46,3 +46,6 @@
 					"query": [
 						{
 							"key": "stock_exchange",
+							"value": "NYSE"
+						}
+					]
